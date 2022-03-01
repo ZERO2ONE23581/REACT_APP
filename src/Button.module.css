@@ -1,0 +1,9 @@
+.btn {
+  background-color: cornsilk;
+  color: hotpink;
+  border: 10px solid cornflowerblue;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
