@@ -15,7 +15,6 @@ function App() {
     }
     setToDo(""); //submit -> empty the input
     setToDos((currentArray) => [toDo, ...currentArray]); //toDos === [] === currentArray
-    console.log(toDo, toDos);
   };
 
   return (
@@ -30,6 +29,12 @@ function App() {
         />
         <button>Add To-Do</button>
       </form>
+      <hr />
+      <ul>
+        {toDos.map((item, index) => (
+          <li key={index}>{item}</li>
+        ))}
+      </ul>
     </div>
   );
 }
