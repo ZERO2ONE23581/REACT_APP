@@ -3,3 +3,13 @@
     Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 50px;
 }
+.btn {
+  cursor: pointer;
+  padding: 20px 40px;
+  font-size: 30px;
+  font-weight: bold;
+  border: 10px solid cornflowerblue;
+  border-radius: 20px;
+  background-color: cornsilk;
+  color: crimson;
+}
